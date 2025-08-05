@@ -35,3 +35,63 @@ An AI-powered personal fitness trainer that creates **custom workout** and **die
 ```bash
 git clone https://github.com/Laxman-Katneni/AI-Fitness-Trainer.git
 cd AI-Fitness-Trainer
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+4. Configure Environment Variables
+
+Create a .env file in the root directory:
+```bash
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+# Clerk Redirect URLs
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+# Vapi Voice AI
+NEXT_PUBLIC_VAPI_WORKFLOW_ID=
+NEXT_PUBLIC_VAPI_API_KEY=
+
+# Convex Database
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+```
+4. Run the development server
+npm run dev
+Visit http://localhost:3000 in your browser.
+🧩 Technologies Used
+Next.js – React framework for frontend & API routes
+Tailwind CSS & Shadcn UI – Styling & components
+Clerk – Authentication & user management
+Vapi – Voice AI platform for conversational interfaces
+Convex – Real-time database
+Gemini AI – Large Language Model for personalized plans
+⚠️ Limitations (Free Tier Usage Only)
+Since this project uses only free tiers for all services, there are some constraints:
+Clerk Free Tier
+Limited monthly active users (typically 5,000 on free plan, but may vary)
+Certain advanced authentication features (like SMS) may be restricted
+Vapi Free Tier
+Limited voice minutes per month
+Possible latency in real-time interactions if usage exceeds free quota
+Gemini AI Free Tier
+Limited number of requests per day
+Potential rate limiting during peak hours
+Convex Free Tier
+Limited database storage and query count
+Restricted concurrent connections
+Vercel Free Tier
+Bandwidth and execution time limits
+Build execution minutes are capped monthly
+General Impact
+Heavy use could trigger service throttling
+Not ideal for high-traffic production deployment without upgrading plans
+🔗 Links
+GitHub Repository: AI Fitness Trainer
+LinkedIn: Laxman Katneni
+
