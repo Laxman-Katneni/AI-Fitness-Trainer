@@ -71,27 +71,36 @@ Clerk – Authentication & user management
 Vapi – Voice AI platform for conversational interfaces
 Convex – Real-time database
 Gemini AI – Large Language Model for personalized plans
-⚠️ Limitations (Free Tier Usage Only)
-Since this project uses only free tiers for all services, there are some constraints:
-Clerk Free Tier
-Limited monthly active users (typically 5,000 on free plan, but may vary)
-Certain advanced authentication features (like SMS) may be restricted
-Vapi Free Tier
-Limited voice minutes per month
-Possible latency in real-time interactions if usage exceeds free quota
-Gemini AI Free Tier
-Limited number of requests per day
-Potential rate limiting during peak hours
-Convex Free Tier
-Limited database storage and query count
-Restricted concurrent connections
-Vercel Free Tier
-Bandwidth and execution time limits
-Build execution minutes are capped monthly
-General Impact
-Heavy use could trigger service throttling
-Not ideal for high-traffic production deployment without upgrading plans
-🔗 Links
-GitHub Repository: AI Fitness Trainer
-LinkedIn: Laxman Katneni
+
+## ⚠️ Limitations (Free Tier Usage Only)
+Since this project uses **only free tiers** for all services, there are some constraints:
+
+- **Clerk Free Tier**  
+  - Limited monthly active users (typically 5,000 on free plan, but may vary)  
+  - Certain advanced authentication features (like SMS) may be restricted  
+
+- **Vapi Free Tier**  
+  - Limited voice minutes per month  
+  - Possible latency in real-time interactions if usage exceeds free quota  
+
+- **Gemini AI Free Tier**  
+  - Limited number of requests per day  
+  - Potential rate limiting during peak hours  
+
+- **Convex Free Tier**  
+  - Limited database storage and query count  
+  - Restricted concurrent connections  
+
+- **Vercel Free Tier**  
+  - Bandwidth and execution time limits  
+  - Build execution minutes are capped monthly  
+
+- **General Impact**  
+  - Heavy use could trigger service throttling  
+  - Not ideal for high-traffic production deployment without upgrading plans  
+
+## 🔗 Links
+- **GitHub Repository:** [AI Fitness Trainer](https://github.com/Laxman-Katneni/AI-Fitness-Trainer)  
+- **LinkedIn:** [Laxman Katneni](https://www.linkedin.com/in/laxman-katneni)  
+
 
